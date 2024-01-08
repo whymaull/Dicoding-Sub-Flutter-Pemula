@@ -10,13 +10,15 @@ class ProfilePage extends StatelessWidget {
         backgroundColor: Colors.lightBlue,
         title: const Text('Profile'),
       ),
-      body: const SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            Profile(),
-          ],
+      body: const SingleChildScrollView(
+        child: SafeArea(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Profile(),
+            ],
+          ),
         ),
       ),
     );

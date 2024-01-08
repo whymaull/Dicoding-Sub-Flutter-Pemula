@@ -70,7 +70,7 @@ class DetailMotor extends StatelessWidget {
         Align(
           alignment: Alignment.centerLeft,
           child: Padding(
-            padding: EdgeInsets.only(top: 8),
+            padding: const EdgeInsets.only(top: 8),
             child: Text(
               place.desc,
               style: const TextStyle(
